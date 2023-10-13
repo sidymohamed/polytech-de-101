@@ -18,12 +18,3 @@ airflow db init
 airflow standalone
 
 exit(0)
-# airflow users create \\
-#     --username admin \\
-#     --password admin \\
-#     --role Admin \\
-#     --firstname admin \\
-#     --lastname admin \\
-#     --email admin@polytech.com
-
-# postgresql://doadmin:AVNS_J9cM0dX1dTZ2J0vNuAN@db-postgresql-polytech-airflow-do-user-3783411-0.b.db.ondigitalocean.com:25060/kevinl-airflow
