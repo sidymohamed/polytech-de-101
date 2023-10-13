@@ -1,0 +1,12 @@
+{
+    "datalake_access_key": "DO00CNTTTP86WYXZV7L8",
+    "datalake_endpoint": "https://nyc3.digitaloceanspaces.com",
+    "datalake_name": "datalake-polytech-de-101",
+    "datalake_secret_token": "XXXXXXXXXX",
+    "github_token": "XXXXXXXXXX",
+    "warehouse_database": "kevinl",
+    "warehouse_host": "db-postgresql-polytech-de-101-do-user-3783411-0.b.db.ondigitalocean.com",
+    "warehouse_password": "XXXXXXXXXX",
+    "warehouse_port": 25060,
+    "warehouse_username": "doadmin"
+}

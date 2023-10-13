@@ -1,0 +1,25 @@
+query listRepos($queryString: String!){{
+    rateLimit{{
+        cost
+        remaining
+        resetAt
+    }}
+    search(query: $queryString, type: REPOSITORY, first: 100 {f"after:{cursor}" if cursor else ""}) {{        
+        repositoryCount
+        pageInfo {{
+            endCursor
+            startCursor
+        }}
+        edges {{
+            node {{
+                ... on Repository {{
+                    name
+                    owner {{
+                        login
+                    }}
+                    stargazerCount
+                }}
+            }}
+        }}
+    }}
+}}
